@@ -4,7 +4,29 @@
 .navbar {
     font-family: 'Balsamiq Sans', cursive;
 }
+
 /* End Navbar */
+
+
+/* Cart */
+.cart span, p{
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.cart {
+  min-width:300px !important;
+}
+
+.containercart button {
+  font-size: 10px !important;
+  box-shadow: 10px 3px #101010;
+  border-color: black !important;
+  border-radius: 10px !important;
+  border-width:  2px !important;
+}
+
+/* end Cart */
+
 
 /* modal */
 .modal-dialog {
@@ -286,9 +308,4 @@ footer {
 	box-shadow: 10px 3px #101010;
   border-color: black !important;
   border: solid 2px black;
-  transition: 0.3s;
-}
-
-.float:hover {
-  box-shadow: none;
 }
